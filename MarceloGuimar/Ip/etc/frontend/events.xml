@@ -1,5 +1,5 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="controller_action_predispatch">
-        <observer name="excellence_hello_test_observer" instance="MarceloGuimar\Ip\Observer\Predispatch" />
+        <observer name="predispatch_observer" instance="MarceloGuimar\Ip\Observer\Predispatch" />
     </event>
 </config>
